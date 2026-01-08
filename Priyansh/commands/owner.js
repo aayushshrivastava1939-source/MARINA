@@ -2,7 +2,7 @@ module.exports.config = {
   name: "owner",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "𒁍 ⃝𝐀𝐲𝐮𝐬𝐡 BABU",
   description: "Friends Dp photos",
   commandCategory: "Random-IMG",
   usages: "bestie dp",
@@ -24,16 +24,16 @@ const fs = global.nodemodule["fs-extra"];
      ];
      var callback = () => api.sendMessage({body:`🔰𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊🔰
 
- ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀•◡•)
+ ཫ༄𒁍 ⃝𝐀𝐲𝐮𝐬𝐡•)
 
-𝐀𝐠𝐞 : 🙈
+𝐀𝐠𝐞 : 19
 
-𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 𝐖𝐢𝐭𝐡 : 🙈🙈
+𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 𝐖𝐢𝐭𝐡 : Shivani Yadav 💋
 
 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 https://www.facebook.com
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 https://www.facebook.com/profile.php?id=61583545905280
 
-𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : 🙈🙈🙈
+𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : 7898573354
 
  🚩🌍❤️🙂!❤🙂♣️`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());

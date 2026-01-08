@@ -5,7 +5,7 @@ module.exports.config = {
 name: "lock",
 version: "beta",
 hasPermssion: 1,
-credits: "SHANKAR SUMAN",
+credits: "AAYUSH SHRIVASTAVA",
 description: "Cấm đổi tên nhóm!",
 commandCategory: "Hệ thống quản trị viên",
 usages: "antinamebot on/off",
@@ -67,7 +67,7 @@ if (data[threadID].status == false) {
 } else data[threadID].status = false
      fs.writeFileSync(path, JSON.stringify(data, null, 2));
       api.sendMessage(
-    `✅ मेरे बॉस आर्यन ने ${data[threadID].status == true ? `ग्रुप नाम लॉक कर दिया` : `ग्रुप नाम अनलॉक कर दिया`} लव यू आर्यन बॉस`,
+    `✅ मेरे बॉस आयुष data[threadID].status == true ? `ग्रुप नाम लॉक कर दिया` : `ग्रुप नाम अनलॉक कर दिया`} लव यू आर्यन बॉस`,
  threadID)
 } 
 function PREFIX(t) {

@@ -20,7 +20,7 @@ module.exports.run = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("THE ALONE GANG DESTROYER MR.AAYUSH BABU ENTER 💓🍓");
+a("THE ALONE GANG DESTROYER MR.AAYUSH 💋BABU ENTER 💓🍓");
 setTimeout(() => {a({body: "TERRI AMAAA KIIIII CHUTTTTT MAARUUUUU MADARCHOD KEE BACCHEEE CHAALLL AJAA TERAA BAAAPPP READYYY HAIIII ABBBH 😈😈😈।" + " " + name, mentions: arraytag})}, 3000);
 setTimeout(() => {a({body: "‎AAJAAA RANNDDIIII KAA BACHAA DARRRR MAATTT CHAALLLLL COOOVERRR KAARRR BAAAPPPP BOLLLLL .." + " " + name, mentions: arraytag})}, 5000);
 setTimeout(() => {a({body: "‎ TERRI NANIIII KI KALIIII GANDDD MARUUUUU MADARCHOD DAARRRRRR MAATTTTTT CHINNAALLL KEE BACCHEE 😈😈😈༅༎•❤️🌸🐰" + " " + name, mentions: arraytag})}, 7000);

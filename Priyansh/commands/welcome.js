@@ -1,9 +1,9 @@
-mconst fs = require("fs");
+𝐊𝐀𝐔𝐑 fs = require("fs");
 module.exports.config = {
   name: "wlcm",
     version: "1.1.1",
   hasPermssion: 0,
-  credits: "𝐏𝐑𝐈𝐘𝐀𝐍𝐒𝐇𝐈 𝐊𝐀𝐔𝐑", 
+  credits: "AYUSH SHRIVASTAVA", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
